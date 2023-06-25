@@ -80,10 +80,9 @@ class ToTest(unittest.TestCase):
         self.ui.ui.tabs.setCurrentIndex(1)
 
 
-def test_pp():
-    assert 1==1
+# def test_pp():
+#     assert 1==1
 
 if __name__ == '__main__':
-    #unittest.main(verbosity=2)
-    pytest.main()
-    #pytest.main(["-x", "C:\\Users\\adammm\\PycharmProjects\\pythonProject\\venv\\ind4", "-vv"])
+    unittest.main(verbosity=2)
+    #pytest.main()

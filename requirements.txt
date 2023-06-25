@@ -1,0 +1,4 @@
+PyQt5==5.15.7
+freeopcua==0.90.6
+paho-mqtt==1.6.1
+pysoem==1.0.7
