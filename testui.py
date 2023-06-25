@@ -4,7 +4,7 @@ import pytest
 from PyQt5 import QtWidgets
 from PyQt5 import QtCore
 from PyQt5 import QtTest
-from ind4.controller.presentater import Controller
+from controller.presentater import Controller
 import time
 
 class ToTest(unittest.TestCase):
